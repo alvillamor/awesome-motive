@@ -1,0 +1,15 @@
+#am-challenge-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+#am-challenge-table th, #am-challenge-table td {
+  text-align: left;
+  padding: 8px;
+}
+
+#am-challenge-table tr:nth-child(even){
+    background-color: #f2f2f2
+}

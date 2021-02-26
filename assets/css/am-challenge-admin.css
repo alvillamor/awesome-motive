@@ -1,0 +1,73 @@
+#wpcontent {
+    padding-left: 0 !important;
+    position: relative;
+}
+
+#am-challenge-admin {
+    margin: 10px 0;
+}
+
+.am-challenge-title {
+    background-color: #fff;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    border-bottom: 2px solid #fff;
+    box-shadow: none;
+    color: #222;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.am-challenge-content{
+    padding: 0 20px;
+}
+
+
+#am-challenge-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+#am-challenge-table th, table#am-challenge-table td {
+  text-align: left;
+  padding: 8px;
+}
+
+#am-challenge-table tr {
+  background: #fff;
+}
+
+#am-challenge-table tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+button.am-challenge-submit-btn {
+    background-color: #f97f00;
+    border-color: #f97f00;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 12px;
+    min-height: 35px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-shadow: none;
+    box-shadow: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+button.am-challenge-submit-btn:disabled,
+button.am-challenge-submit-btn[disabled] {
+  background-color: #cccccc;
+  color: #666666;
+}
